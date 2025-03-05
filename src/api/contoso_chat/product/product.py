@@ -57,7 +57,7 @@ def retrieve_products(items: List[Dict[str, any]], index_name: str) -> str:
             semantic_configuration_name="default",
             query_caption=QueryCaptionType.EXTRACTIVE,
             query_answer=QueryAnswerType.EXTRACTIVE,
-            top=2,
+            top=3,
         )
 
         docs = [
